@@ -1,0 +1,70 @@
+﻿
+/* Timeline on LHS */
+.Timeline {
+	position: fixed;
+	z-index: 1; /* the greater z-index will stack on top of lower z-index */
+	background-color: none;
+	overflow-x: auto;
+	margin-top: 100px;
+	width: 20%;
+	height: 87%;
+}
+	/* modify timeline scrollbar */
+	.Timeline::-webkit-scrollbar {
+	}
+
+	/* Style the buttons inside the Timeline bar */
+	.Timeline button {
+		display: block;
+		background-color: inherit;
+		color: white;
+		padding: 22px 15px;
+		width: 100%;
+		border: none;
+		outline: none;
+		text-align: left;
+		cursor: pointer;
+		transition: 0.3s;
+		font-size: 17px;
+	}
+
+.series {
+	display: block;
+	background-color: inherit;
+	color: white;
+	padding: 22px 18px;
+	width: 100%;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+.Timeline button:hover {
+	background-color: #002b58;
+}
+
+/* Create an active/current "tab button" class */
+.Timeline button.active {
+	background-color: #0080FF;
+}
+
+
+/* Dropdown container (hidden by default). */
+.series-container {
+	display: none;
+	background-color: inherit;
+	border: 2px solid #0080FF;
+}
+
+	.series-container button.active {
+		background-color: #00367f;
+	}
+
+.fa-caret-down {
+	float: right;
+	padding-right: 8px;
+}

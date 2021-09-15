@@ -1,0 +1,10 @@
+﻿* {
+	box-sizing: border-box
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	background-color: #010d1d;
+	margin: 0px;
+	color:white;
+}
