@@ -1,0 +1,2240 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>攸西半岛数据库</title>
+	<meta name="description" content=" 攸西半岛数据库 ">
+	<meta name="keywords" content="攸西半岛,半岛数据库,攸西数据库,游戏专区,攸西,半岛">
+	<meta name=" author" content=" 徵羽摩柯1562 ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property=" og:type" content=" website" />
+	<meta property=" og:url" content="https://youxiwiki.com/" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href=".\content\resources\css\body.css" />
+	<link rel="stylesheet" type="text/css" href=".\content\resources\css\topnav.css" />
+	<link rel="stylesheet" type="text/css" href=".\content\resources\css\timelineButton.css" />
+	<link rel="stylesheet" type="text/css" href=".\content\resources\css\tabcontent.css" />
+	<link rel="stylesheet" type="text/css" href=".\content\resources\css\charapage.css" />
+</head>
+
+<body>
+	<div class="topnav">
+		<button class=" story" onclick=" openFile(event, '指引')" id="defaultOpen">指引</button>
+	</div>
+
+	<div id="指引" class="content">
+		<div class="vartopnav">
+			<button class="story" onclick="openFile(event, '相关人员档案总集')">相关人员档案</button>
+			<button class=" story" onclick=" openFile(event,'相关数据备份总集')">相关数据备份</button>
+			<button class=" story" onclick=" openFile(event,'原文本指导页')">原文本</button>
+			<input type="text" placeholder="搜索关键词" />
+		</div>
+		<object class="tabcontent" data=".\content\GuidePage.html">
+		</object>
+
+
+	</div>
+	<div id="相关人员档案总集" class=" content">
+		<div class="vartopnav">
+			<button class="active">相关人员档案</button>
+			<button class=" story" onclick=" openFile(event,'相关数据备份总集')">相关数据备份</button>
+			<button class=" story" onclick=" openFile(event,'原文本指导页')">原文本</button>
+			<input type="text" placeholder="搜索关键词" />
+		</div>
+		<div class=" tabcontent">
+			<p>这里记录了相关人员档案总集</p>
+		</div>
+	</div>
+
+	<div id="相关数据备份总集" class=" content">
+		<div class="vartopnav">
+			<button class="story" onclick="openFile(event, '相关人员档案总集')">相关人员档案</button>
+			<button class="active">相关数据备份</button>
+			<button class=" story" onclick=" openFile(event,'原文本指导页')">原文本</button>
+			<input type="text" placeholder="搜索关键词" />
+		</div>
+		<div class=" tabcontent">
+			<p>这里记录了冒险者们接触过的核心知识</p>
+		</div>
+	</div>
+
+	<div id="原文本指导页" class=" content">
+		<div class="vartopnav">
+			<button class="story" onclick="openFile(event, '相关人员档案总集')">相关人员档案</button>
+			<button class=" story" onclick=" openFile(event,'相关数据备份总集')">相关数据备份</button>
+			<button class="active">原文本</button>
+			<input type="text" placeholder="搜索关键词" />
+		</div>
+		<div class=" tabcontent">
+			<p>请选择优先在左侧选择时间线事件以查看该事件原文本记录</p>
+		</div>
+	</div>
+
+	<div class="Timeline">
+		<button class="story" onclick="openFile(event, '现在的攸西半岛')">现在的攸西半岛</button>
+		<button class="story" onclick="openFile(event, '半岛重建')">半岛重建</button>
+		<button class="story" onclick="openFile(event,'黑潮')">黑潮</button>
+		<button class="story" onclick="openFile(event,'龙腾纪元')">龙腾纪元</button>
+		<button class="story" onclick="openFile(event,'永恒之森')">永恒之森</button>
+
+		<button class="series">
+			星际蛮仔
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick=" openFile(event,'星际蛮仔2')">星际蛮仔2</button>
+			<button class="story" onclick=" openFile(event,'星际蛮仔')">星际蛮仔</button>
+		</div>
+
+		<button class="series">
+			亚当
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick="openFile(event,'亚当0')">亚当0</button>
+			<button class="story" onclick="openFile(event,'亚当')">亚当</button>
+		</div>
+
+		<button class="story" onclick="openFile(event,'纳垢双生')">纳垢双生</button>
+		<button class="story" onclick="openFile(event,'净土')">净土</button>
+		<button class="story" onclick="openFile(event,'陨牧星光')">陨牧星光</button>
+		<button class="story" onclick="openFile(event,'克洛之旅')">克洛之旅</button>
+		<button class="story" onclick="openFile(event,'超越时空的委托')">超越时空的委托</button>
+		<button class="story" onclick="openFile(event,'迷失天堂：谜镜')">迷失天堂：谜镜</button>
+		<button class="series">
+			异类攸西
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick="openFile(event,'零落的归途')">零落的归途</button>
+			<button class="story" onclick="openFile(event,'冰封的命运')">冰封的命运</button>
+			<button class="story" onclick="openFile(event,'破碎月桂')">破碎月桂</button>
+		</div>
+		<button class="story" onclick="openFile(event,'乐园')">乐园</button>
+		<button class="story" onclick="openFile(event,'终结之旅途')">终结之旅途</button>
+		<button class="story" onclick="openFile(event,'起源之变革')">起源之变革</button>
+		<button class="series">
+			童话镇
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick=" openFile(event,'白雪公主')">白雪公主</button>
+			<button class="story" onclick=" openFile(event,'爱丽丝梦游仙境')">爱丽丝梦游仙境</button>
+		</div>
+
+		<button class="series">
+			超越者之影
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick=" openFile(event,'黑星降临')">黑星降临</button>
+			<button class="story" onclick=" openFile(event,'德拉格尼')">德拉格尼</button>
+		</div>
+		<button class="story" onclick="openFile(event,'轮回的游戏')">轮回的游戏</button>
+		<button class="story" onclick="openFile(event,'零下严寒')">零下严寒</button>
+		<button class="story" onclick="openFile(event,'青空节')">青空节</button>
+		<button class="story" onclick="openFile(event,'凡人的冒险')">凡人的冒险</button>
+		<button class="story" onclick="openFile(event,'黑白之国')">黑白之国</button>
+		<button class="story" onclick="openFile(event,'短暂的假期')">短暂的“假期”</button>
+		<button class="story" onclick="openFile(event,'Storyteller')">Storyteller</button>
+		<button class="story" onclick="openFile(event,'殷红狂宴')">殷红狂宴</button>
+		<button class="story" onclick="openFile(event,'无名村庄的月圆之夜')">无名村庄的月圆之夜</button>
+		<button class="story" onclick="openFile(event,'青空之印')">青空之印</button>
+		<button class="story" onclick="openFile(event,'光谱')">光谱</button>
+		<button class="story" onclick="openFile(event,'葬神之渊')">葬神之渊</button>
+		<button class="story" onclick="openFile(event,'月夜幻境')">月夜幻境</button>
+		<button class="story" onclick="openFile(event,'半岛终焉')">半岛终焉</button>
+		<button class="story" onclick="openFile(event,'无名岛怪谈-更早？？？')">无名岛怪谈-更早？？？</button>
+	</div>
+
+	<!--半岛本体-->
+	<div>
+		<div id="现在的攸西半岛" class="content">
+
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>攸西半岛简介</h3>
+				<p>这里记录了攸西半岛简介以及简史。同时记录了官方的日常系活动。</p>
+			</div>
+		</div>
+
+		<div id="半岛相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了半岛核心相关人员档案</p>
+			</div>
+		</div>
+
+		<div id="半岛相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛相关人员档案')">相关人员档案</button>
+				<button class=" active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了半岛地形与建筑，相关术语，以及图书馆的常用书籍与资料。</p>
+			</div>
+		</div>
+
+		<div id="半岛原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛相关人员档案')">相关人员档案</button>
+				<button class="subtablinks" onclick="subContent(event, '半岛相关数据备份')">相关数据备份</button>
+				<button class=" active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了半岛日常活动的原文本。</p>
+				<button type="button" class="collapsible">夏日祭</button>
+				<div class="daybreak">
+					<p>文本desu</p>
+				</div>
+				<button type="button" class="collapsible">电玩祭</button>
+				<div class="daybreak">
+					内容施工中……
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!--半岛重建-->
+	<div>
+		<div id="半岛重建" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛重建相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛重建相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛重建原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>半岛重建</h3>
+				<p>事件发生于攸西历2021年8月。</p>
+			</div>
+		</div>
+
+		<div id="半岛重建相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛重建相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛重建原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了半岛重建事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="半岛重建相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛重建相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛重建原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>半岛重建相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="半岛重建原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛重建相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'半岛重建相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>半岛重建原文本</h3>
+				<p>文本</p>
+			</div>
+		</div>
+	</div>
+	<!--黑潮-->
+	<div>
+		<div id="黑潮" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑潮相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑潮相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑潮原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>黑潮</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="黑潮相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑潮相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑潮原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了黑潮事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="黑潮相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑潮相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑潮原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>黑潮相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="黑潮原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑潮相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑潮相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\BDPR\黑潮.html"></object>
+		</div>
+	</div>
+	<!--龙腾纪元-->
+	<div>
+		<div id="龙腾纪元" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '龙腾纪元相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'龙腾纪元相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'龙腾纪元原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>龙腾纪元</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="龙腾纪元相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'龙腾纪元相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'龙腾纪元原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了龙腾纪元事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="龙腾纪元相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '龙腾纪元相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'龙腾纪元原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>龙腾纪元相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="龙腾纪元原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '龙腾纪元相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'龙腾纪元相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\龙腾纪元.html"></object>
+		</div>
+	</div>
+	<!--永恒之森-->
+	<div>
+		<div id="永恒之森" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '永恒之森相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'永恒之森相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'永恒之森原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>永恒之森</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="永恒之森相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'永恒之森相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'永恒之森原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了永恒之森事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="永恒之森相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '永恒之森相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'永恒之森原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>永恒之森相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="永恒之森原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '永恒之森相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'永恒之森相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\永恒之森.html"></object>
+		</div>
+	</div>
+	<!--星际蛮仔系列-->
+	<div>
+		<!--星际蛮仔2-->
+		<div>
+			<div id="星际蛮仔2" class="content">
+				<div class="vartopnav">
+					<button class="subtablinks" onclick="subContent(event, '星际蛮仔2相关人员档案')">相关人员档案</button>
+					<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔2相关数据备份')">相关数据备份</button>
+					<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔2原文本')">原文本</button>
+					<input type="text" placeholder="搜索关键词" />
+				</div>
+				<div class=" tabcontent">
+					<h3>星际蛮仔.聆潮</h3>
+					<p>事件发生于攸西历2021年。</p>
+				</div>
+			</div>
+
+			<div id="星际蛮仔2相关人员档案" class=" content">
+				<div class="vartopnav">
+					<button class="active">相关人员档案</button>
+					<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔2相关数据备份')">相关数据备份</button>
+					<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔2原文本')">原文本</button>
+					<input type="text" placeholder="搜索关键词" />
+				</div>
+				<div class=" tabcontent">
+					<p>这里记录了星际蛮仔.聆潮事件核心人员档案</p>
+				</div>
+			</div>
+			<div id="星际蛮仔2相关数据备份" class="content">
+				<div class="vartopnav">
+					<button class="subtablinks" onclick="subContent(event, '星际蛮仔2相关人员档案')">相关人员档案</button>
+					<button class="active">相关数据备份</button>
+					<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔2原文本')">原文本</button>
+					<input type="text" placeholder="搜索关键词" />
+				</div>
+				<div class=" tabcontent">
+					<h3>星际蛮仔.聆潮相关数据备份</h3>
+					<p>一些数据。</p>
+				</div>
+			</div>
+			<div id="星际蛮仔2原文本" class="content">
+				<div class="vartopnav">
+					<button class="subtablinks" onclick="subContent(event, '星际蛮仔2相关人员档案')">相关人员档案</button>
+					<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔2相关数据备份')">相关数据备份</button>
+					<button class="active">原文本</button>
+					<input type="text" placeholder="搜索关键词" />
+				</div>
+				<object class=" tabcontent" data=".\content\ProjectIF\星际蛮仔2.html"></object>
+			</div>
+		</div>
+		<!--星际蛮仔-->
+		<div id="星际蛮仔" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '星际蛮仔相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>星际蛮仔</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="星际蛮仔相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了星际蛮仔事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="星际蛮仔相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '星际蛮仔相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>星际蛮仔相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="星际蛮仔原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '星际蛮仔相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'星际蛮仔相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\星际蛮仔.html"></object>
+		</div>
+	</div>
+	<!--亚当系列-->
+	<div>
+		<div id="亚当" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '亚当相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>亚当</h3>
+				<p>记录着净土的事件简介。</p>
+			</div>
+		</div>
+		<div id="亚当相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>亚当相关人员档案</h3>
+				<p>记录着净土相关人员档案。</p>
+			</div>
+		</div>
+		<div id="亚当相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '亚当相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>亚当相关数据备份</h3>
+				<p>记录着亚当相关数据备份。</p>
+			</div>
+		</div>
+		<div id="亚当原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '亚当相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\BDPR\亚当.html"></object>
+		</div>
+		<!--亚当0-->
+		<div id="亚当0" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '亚当0相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当0相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当0原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>亚当0</h3>
+				<p>记录着净土的事件简介。</p>
+			</div>
+		</div>
+		<div id="亚当0相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当0相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当0原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>亚当0相关人员档案</h3>
+				<p>记录着净土相关人员档案。</p>
+			</div>
+		</div>
+		<div id="亚当0相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '亚当0相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当0原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>亚当0相关数据备份</h3>
+				<p>记录着亚当0相关数据备份。</p>
+			</div>
+		</div>
+		<div id="亚当0原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '亚当0相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当0相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '亚当0原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\BDPR\亚当0.html"></object>
+		</div>
+	</div>
+	<!--纳垢双生-->
+	<div>
+		<div id="纳垢双生" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '纳垢双生相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'纳垢双生相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'纳垢双生原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>纳垢双生</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="纳垢双生相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'纳垢双生相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'纳垢双生原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了纳垢双生事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="纳垢双生相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '纳垢双生相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'纳垢双生原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>纳垢双生相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="纳垢双生原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '纳垢双生相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'纳垢双生相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\纳垢双生.html"></object>
+		</div>
+	</div>
+	<!--净土-->
+	<div>
+		<div id="净土" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '净土相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '净土相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '净土原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>净土</h3>
+				<p>记录着净土的事件简介。</p>
+			</div>
+		</div>
+		<div id="净土相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '净土相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '净土原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>净土相关人员档案</h3>
+				<p>记录着净土相关人员档案。</p>
+			</div>
+		</div>
+		<div id="净土相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '净土相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '净土原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>净土相关数据备份</h3>
+				<p>记录着净土相关数据备份。</p>
+			</div>
+		</div>
+		<div id="净土原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '净土相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '净土相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '净土原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\BDPR\净土.html"></object>
+		</div>
+	</div>
+	<!--陨牧星光-->
+	<div>
+		<div id="陨牧星光" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '陨牧星光相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'陨牧星光相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'陨牧星光原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>陨牧星光</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="陨牧星光相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'陨牧星光相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'陨牧星光原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了陨牧星光事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="陨牧星光相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '陨牧星光相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'陨牧星光原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>陨牧星光相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="陨牧星光原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '陨牧星光相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'陨牧星光相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\BDPR\陨牧星光.html"></object>
+		</div>
+	</div>
+	<!--克洛之旅-->
+	<div>
+		<div id="克洛之旅" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '克洛之旅相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'克洛之旅相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'克洛之旅原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>克洛之旅</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="克洛之旅相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'克洛之旅相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'克洛之旅原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了克洛之旅事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="克洛之旅相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '克洛之旅相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'克洛之旅原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>克洛之旅相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="克洛之旅原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '克洛之旅相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'克洛之旅相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\短期活动\克洛之旅.html"></object>
+		</div>
+	</div>
+	<!--超越时空的委托-->
+	<div>
+		<div id="超越时空的委托" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '超越时空的委托相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'超越时空的委托相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'超越时空的委托原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>超越时空的委托</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="超越时空的委托相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'超越时空的委托相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'超越时空的委托原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了超越时空的委托事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="超越时空的委托相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '超越时空的委托相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'超越时空的委托原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>超越时空的委托相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="超越时空的委托原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '超越时空的委托相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'超越时空的委托相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\短期活动\超越时空的委托.html"></object>
+		</div>
+	</div>
+	<!--迷失天堂：谜镜-->
+	<div>
+		<div id="迷失天堂：谜镜" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '迷失天堂：谜镜相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'迷失天堂：谜镜相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'迷失天堂：谜镜原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>迷失天堂：谜镜</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="迷失天堂：谜镜相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'迷失天堂：谜镜相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'迷失天堂：谜镜原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了迷失天堂：谜镜事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="迷失天堂：谜镜相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '迷失天堂：谜镜相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'迷失天堂：谜镜原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>迷失天堂：谜镜相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="迷失天堂：谜镜原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '迷失天堂：谜镜相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'迷失天堂：谜镜相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\迷失天堂：谜镜.html"></object>
+		</div>
+	</div>
+	<!--异类攸西系列-->
+	<div>
+
+		<!--零落的归途-->
+		<div id="零落的归途" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '零落的归途相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '零落的归途相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '零落的归途原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>零落的归途</h3>
+				<p>事件发生于攸西历2021年 月。在这里写写事件的概括吧！</p>
+			</div>
+		</div>
+		<div id="零落的归途相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零落的归途相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零落的归途原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>零落的归途相关人员档案</h3>
+				<!--一个人物档案的开端-->
+				<button class="charabtn">
+					<div class="charapf">
+						<img src="" alt="玛纳捏洛.露蒂娅" /> <!--人物的头像-->
+						<p>玛纳捏洛.露蒂娅</p> <!--名字，应该会在人物头像的正下方……-->
+					</div>
+					<div class="charaintro">
+						<!--这里到(1)-->
+						<p>
+							这里是mp上的人物简介
+						</p>
+					</div><!--(1)这里，都是mp上他们的人物简介-->
+				</button>
+
+				<div class="characontent">
+					<!--人物戏文的合集，如果是不在当前目录下的活动里的戏文就在按钮处注释-->
+					<div class="charatab">
+						<button class="charalinks" onclick="charaContent(event,'玛纳捏洛.露蒂娅1')" id="openedstory">戏文1</button><!--戏文按钮，可以写上地点，按照最新(最上方)到最旧(最下面)排列-->
+						<button class="charalinks" onclick="charaContent(event,'玛纳捏洛.露蒂娅2')">戏文2</button>
+					</div>
+					<div id="玛纳捏洛.露蒂娅1" class="charastory">
+						<!--这里有显示着一个角色的戏文就不能显示其他角色戏文的bug（）我要再去研究研究-->
+						<h3>戏文1</h3>
+						<p>
+							一个段落
+						</p>
+					</div>
+					<div id="玛纳捏洛.露蒂娅2" class="charastory">
+						<h3>戏文2</h3>
+						<p>
+							一个段落。
+						</p>
+					</div>
+				</div>
+				<p style="border-top:2px solid #0080FF"></p><!--结束当前人物档案的编辑-->
+
+				<button class="charabtn">
+					<!--开始下一个人物档案的编辑，格式相同-->
+					<div class="charapf">
+						<img src="" alt="希莉莎.特雷菲娅" />
+						<p>希莉莎.特雷菲娅</p>
+					</div>
+					<div class="charaintro">
+						<p>
+							还是mp上的人物简介
+						</p>
+					</div>
+				</button>
+				<div class="characontent">
+					<div class="charatab">
+						<button class="charalinks" onclick="charaContent(event,'希莉莎.特雷菲娅1')" id="openedstory">戏文1</button>
+						<button class="charalinks" onclick="charaContent(event,'希莉莎.特雷菲娅2')">戏文2</button>
+					</div>
+					<div id="希莉莎.特雷菲娅1" class="charastory">
+						<h3>希莉莎.特雷菲娅戏文1</h3>
+						<p>
+
+						</p>
+					</div>
+					<div id="希莉莎.特雷菲娅2" class="charastory">
+						<h3>希莉莎.特雷菲娅戏文2</h3>
+					</div>
+				</div>
+
+				<p style="border-top:2px solid #0080FF"></p>
+
+			</div>
+		</div>
+		<div id="零落的归途相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '零落的归途相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零落的归途原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>零落的归途相关数据备份</h3>
+				<p>
+					词条，书籍，地标etc.
+				</p>
+			</div>
+		</div>
+		<div id="零落的归途原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '零落的归途相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零落的归途相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>零落的归途原文本</h3>
+				<p>
+					<!--这一段是关于原文本一些注释，指向mp里活动子专区的备份信息-->
+					原文本备份者：<!--发表备份的皮-->
+					<br />
+					备份时间：攸西历 年 月 日<!--备份时间-->
+					<br />
+					备份地点：<!--备份所在子专区-->
+				</p>
+				<p>
+					导入/预热内容
+				</p>
+				<button type="button" class="collapsible">【第一日】</button><!--【第一日】置换成当日的标题，或者直接就叫第几日√-->
+				<div class="daybreak">
+					<p>
+						原文本内容。<!--用<p>一个段落</p>，分行用<br></br>-->
+					</p>
+				</div>
+				<p>
+					day.FIN内容
+				</p>
+
+			</div>
+		</div>
+
+		<!--冰封的命运-->
+		<div id="冰封的命运" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '冰封的命运相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '冰封的命运相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '冰封的命运原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>冰封的命运</h3>
+				<p>事件发生于攸西历2021年 月。在这里写写事件的概括吧！</p>
+			</div>
+		</div>
+		<div id="冰封的命运相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'冰封的命运相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'冰封的命运原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了冰封的命运相关人员档案</p>
+			</div>
+		</div>
+		<div id="冰封的命运相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '冰封的命运相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'冰封的命运原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>冰封的命运相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="冰封的命运原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '冰封的命运相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'冰封的命运相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>冰封的命运原文本</h3>
+				<p>文本</p>
+			</div>
+		</div>
+
+		<!--破碎月桂-->
+		<div id="破碎月桂" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '破碎月桂相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '破碎月桂相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '破碎月桂原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>破碎月桂</h3>
+				<p>事件发生于攸西历2021年 月。在这里写写事件的概括吧！</p>
+			</div>
+		</div>
+		<div id="破碎月桂相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'破碎月桂相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'破碎月桂原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了破碎月桂相关人员档案</p>
+			</div>
+		</div>
+		<div id="破碎月桂相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '破碎月桂相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'破碎月桂原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>破碎月桂相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="破碎月桂原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '破碎月桂相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'破碎月桂相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>破碎月桂原文本</h3>
+				<p>文本</p>
+			</div>
+		</div>
+	</div>
+	<!--乐园-->
+	<div>
+		<div id="乐园" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '乐园相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'乐园相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'乐园原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>乐园</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="乐园相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'乐园相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'乐园原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了乐园事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="乐园相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '乐园相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'乐园原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>乐园相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="乐园原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '乐园相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'乐园相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\短期活动\乐园.html"></object>
+		</div>
+	</div>
+	<!--终结之旅途-->
+	<div>
+		<div id="终结之旅途" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '终结之旅途相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'终结之旅途相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'终结之旅途原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>终结之旅途</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="终结之旅途相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'终结之旅途相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'终结之旅途原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了终结之旅途事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="终结之旅途相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '终结之旅途相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'终结之旅途原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>终结之旅途相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="终结之旅途原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '终结之旅途相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'终结之旅途相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\终结之旅途.html"></object>
+		</div>
+	</div>
+	<!--起源之变革-->
+	<div>
+		<div id="起源之变革" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '起源之变革相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'起源之变革相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'起源之变革原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>起源之变革</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="起源之变革相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'起源之变革相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'起源之变革原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了起源之变革事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="起源之变革相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '起源之变革相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'起源之变革原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>起源之变革相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="起源之变革原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '起源之变革相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'起源之变革相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\起源之变革.html"></object>
+		</div>
+	</div>
+	<!--童话镇系列-->
+	<div>
+		<div id="白雪公主" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '白雪公主相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '白雪公主相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '白雪公主原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>白雪公主</h3>
+				<p>记录着白雪公主的事件简介。</p>
+			</div>
+		</div>
+		<div id="白雪公主相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '白雪公主相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '白雪公主原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>白雪公主相关人员档案</h3>
+				<p>记录着白雪公主相关人员档案。</p>
+			</div>
+		</div>
+		<div id="白雪公主相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '白雪公主相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '白雪公主原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>白雪公主相关数据备份</h3>
+				<p>记录着白雪公主相关数据备份。</p>
+			</div>
+		</div>
+		<div id="白雪公主原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '白雪公主相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '白雪公主相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '白雪公主原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\童话镇\白雪公主.html"></object>
+		</div>
+		<!--爱丽丝梦游仙境-->
+		<div id="爱丽丝梦游仙境" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '爱丽丝梦游仙境相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '爱丽丝梦游仙境相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '爱丽丝梦游仙境原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>爱丽丝梦游仙境</h3>
+				<p>记录着净土的事件简介。</p>
+			</div>
+		</div>
+		<div id="爱丽丝梦游仙境相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '爱丽丝梦游仙境相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '爱丽丝梦游仙境原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>爱丽丝梦游仙境相关人员档案</h3>
+				<p>记录着爱丽丝梦游仙境相关人员档案。</p>
+			</div>
+		</div>
+		<div id="爱丽丝梦游仙境相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '爱丽丝梦游仙境相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '爱丽丝梦游仙境原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>爱丽丝梦游仙境相关数据备份</h3>
+				<p>记录着爱丽丝梦游仙境相关数据备份。</p>
+			</div>
+		</div>
+		<div id="爱丽丝梦游仙境原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '爱丽丝梦游仙境相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '爱丽丝梦游仙境相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '爱丽丝梦游仙境原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\童话镇\爱丽丝梦游仙境.html"></object>
+		</div>
+	</div>
+	<!--超越者之影系列-->
+	<div>
+		<div id="黑星降临" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑星降临相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑星降临相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑星降临原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>黑星降临</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="黑星降临相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑星降临相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑星降临原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了黑星降临事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="黑星降临相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑星降临相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑星降临原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>黑星降临相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="黑星降临原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑星降临相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑星降临相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\黑星降临.html"></object>
+		</div>
+		<!--德拉格尼-->
+		<div id="德拉格尼" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '德拉格尼相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'德拉格尼相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'德拉格尼原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>德拉格尼</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="德拉格尼相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'德拉格尼相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'德拉格尼原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了德拉格尼事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="德拉格尼相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '德拉格尼相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'德拉格尼原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>德拉格尼相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="德拉格尼原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '德拉格尼相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'德拉格尼相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\德拉格尼.html"></object>
+		</div>
+	</div>
+	<!--轮回的游戏-->
+	<div>
+		<div id="轮回的游戏" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '轮回的游戏相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'轮回的游戏相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'轮回的游戏原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>轮回的游戏</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="轮回的游戏相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'轮回的游戏相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'轮回的游戏原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了轮回的游戏事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="轮回的游戏相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '轮回的游戏相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'轮回的游戏原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>轮回的游戏相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="轮回的游戏原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '轮回的游戏相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'轮回的游戏相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\短期活动\轮回的游戏.html"></object>
+		</div>
+	</div>
+	<!--零下严寒-->
+	<div>
+		<div id="零下严寒" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '零下严寒相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零下严寒相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零下严寒原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>零下严寒</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="零下严寒相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零下严寒相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零下严寒原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了零下严寒事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="零下严寒相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '零下严寒相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零下严寒原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>零下严寒相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="零下严寒原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '零下严寒相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'零下严寒相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\短期活动\零下严寒.html"></object>
+		</div>
+	</div>
+	<!--青空节-->
+	<div>
+		<div id="青空节" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '青空节相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'青空节相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'青空节原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>青空节</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="青空节相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'青空节相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'青空节原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了青空节事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="青空节相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '青空节相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'青空节原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>青空节相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="青空节原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '青空节相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'青空节相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\青空节.html"></object>
+		</div>
+	</div>
+	<!--凡人的冒险-->
+	<div>
+		<div id="凡人的冒险" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '凡人的冒险相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'凡人的冒险相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'凡人的冒险原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>凡人的冒险</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="凡人的冒险相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'凡人的冒险相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'凡人的冒险原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了凡人的冒险事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="凡人的冒险相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '凡人的冒险相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'凡人的冒险原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>凡人的冒险相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="凡人的冒险原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '凡人的冒险相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'凡人的冒险相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\短期活动\凡人的冒险.html"></object>
+		</div>
+	</div>
+	<!--黑白之国-->
+	<div>
+		<div id="黑白之国" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑白之国相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑白之国相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑白之国原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>黑白之国</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="黑白之国相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑白之国相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑白之国原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了黑白之国事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="黑白之国相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑白之国相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑白之国原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>黑白之国相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="黑白之国原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '黑白之国相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'黑白之国相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\短期活动\黑白之国.html"></object>
+		</div>
+	</div>
+	<!--短暂的假期-->
+	<div>
+		<div id="短暂的假期" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '短暂的假期相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'短暂的假期相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'短暂的假期原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>短暂的假期</h3>
+				<p>事件发生于攸西历2021年。</p>
+			</div>
+		</div>
+
+		<div id="短暂的假期相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'短暂的假期相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'短暂的假期原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<p>这里记录了短暂的假期事件核心人员档案</p>
+			</div>
+		</div>
+		<div id="短暂的假期相关数据备份" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '短暂的假期相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'短暂的假期原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>短暂的假期相关数据备份</h3>
+				<p>一些数据。</p>
+			</div>
+		</div>
+		<div id="短暂的假期原文本" class="content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '短暂的假期相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'短暂的假期相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\短期活动\短暂的假期.html"></object>
+		</div>
+	</div>
+	<!--Storyteller-->
+	<div>
+		<div id="Storyteller" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, 'Storyteller相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, 'Storyteller相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, 'Storyteller原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>Storyteller</h3>
+				<p>事件发生于攸西历2016年。</p>
+			</div>
+		</div>
+		<div id="Storyteller相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, 'Storyteller相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, 'Storyteller原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>Storyteller相关人员档案</h3>
+				<p>人。</p>
+			</div>
+		</div>
+		<div id="Storyteller相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, 'Storyteller相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, 'Storyteller原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>Storyteller相关数据备份</h3>
+				<p>数据。</p>
+			</div>
+		</div>
+		<div id="Storyteller原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, 'Storyteller相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, 'Storyteller相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class="tabcontent" data=".\content\短期活动\Storyteller.html"></object>
+		</div>
+	</div>
+	<!--殷红狂宴-->
+	<div>
+		<div id="殷红狂宴" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '殷红狂宴相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '殷红狂宴相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '殷红狂宴原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>殷红狂宴</h3>
+				<p>事件发生于攸西历2016年。</p>
+			</div>
+		</div>
+		<div id="殷红狂宴相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '殷红狂宴相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '殷红狂宴原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>殷红狂宴相关人员档案</h3>
+				<p>人。</p>
+			</div>
+		</div>
+		<div id="殷红狂宴相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '殷红狂宴相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '殷红狂宴原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>殷红狂宴相关数据备份</h3>
+				<p>数据。</p>
+			</div>
+		</div>
+		<div id="殷红狂宴原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '殷红狂宴相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '殷红狂宴相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class="tabcontent" data=".\content\ProjectIF\殷红狂宴.html"></object>
+		</div>
+	</div>
+	<!--无名村庄的月圆之夜-->
+	<div>
+		<div id="无名村庄的月圆之夜" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '无名村庄的月圆之夜相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '无名村庄的月圆之夜相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '无名村庄的月圆之夜原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>无名村庄的月圆之夜</h3>
+				<p>事件发生于攸西历2016年。</p>
+			</div>
+		</div>
+		<div id="无名村庄的月圆之夜相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '无名村庄的月圆之夜相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '无名村庄的月圆之夜原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>无名村庄的月圆之夜相关人员档案</h3>
+				<p>人。</p>
+			</div>
+		</div>
+		<div id="无名村庄的月圆之夜相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '无名村庄的月圆之夜相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '无名村庄的月圆之夜原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>无名村庄的月圆之夜相关数据备份</h3>
+				<p>数据。</p>
+			</div>
+		</div>
+		<div id="无名村庄的月圆之夜原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '无名村庄的月圆之夜相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '无名村庄的月圆之夜相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class="tabcontent" data=".\content\短期活动\无名村庄的月圆之夜.html"></object>
+		</div>
+	</div>
+	<!--青空之印-->
+	<div>
+		<div id="青空之印" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '青空之印相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '青空之印相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '青空之印原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>青空之印</h3>
+				<p>事件发生于攸西历2016年。</p>
+			</div>
+		</div>
+		<div id="青空之印相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '青空之印相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '青空之印原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>青空之印相关人员档案</h3>
+				<p>人。</p>
+			</div>
+		</div>
+		<div id="青空之印相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '青空之印相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '青空之印原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>青空之印相关数据备份</h3>
+				<p>数据。</p>
+			</div>
+		</div>
+		<div id="青空之印原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '青空之印相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '青空之印相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class="tabcontent" data=".\content\青空之印.html"></object>
+		</div>
+	</div>
+	<!--葬神之渊-->
+	<div>
+		<div id="葬神之渊" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '葬神之渊相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '葬神之渊相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '葬神之渊原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>葬神之渊</h3>
+				<p>事件发生于攸西历2016年。</p>
+			</div>
+		</div>
+		<div id="葬神之渊相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '葬神之渊相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '葬神之渊原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>葬神之渊相关人员档案</h3>
+				<p>人。</p>
+			</div>
+		</div>
+		<div id="葬神之渊相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '葬神之渊相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event, '葬神之渊原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>葬神之渊相关数据备份</h3>
+				<p>数据。</p>
+			</div>
+		</div>
+		<div id="葬神之渊原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '葬神之渊相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event, '葬神之渊相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class="tabcontent" data=".\content\ProjectIF\葬神之渊.html"></object>
+		</div>
+	</div>
+	<!--月夜幻境-->
+	<div>
+
+		<div id="月夜幻境" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '月夜幻境相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '月夜幻境相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '月夜幻境原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>月夜幻境</h3>
+				<p>事件发生于攸西历2016年中秋节。</p>
+			</div>
+		</div>
+		<div id="月夜幻境相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '月夜幻境相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '月夜幻境原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>月夜幻境相关人员档案</h3>
+				<p>人。</p>
+			</div>
+		</div>
+		<div id="月夜幻境相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '月夜幻境相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '月夜幻境原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>月夜幻境相关数据备份</h3>
+				<p>数据。</p>
+			</div>
+		</div>
+		<div id="月夜幻境原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '月夜幻境相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '月夜幻境相关数据备份')">相关数据备份</button>
+				<button class="active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\月夜幻境.html"></object>
+
+		</div>
+	</div>
+	<!---->
+	<!--光谱-->
+	<div>
+		<div id="光谱" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '光谱相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '光谱相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '光谱原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>光谱</h3>
+				<p>记录着光谱的事件简介。</p>
+			</div>
+		</div>
+		<div id="光谱相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick=" subContent(event,'光谱相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'光谱原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>光谱相关人员档案</h3>
+				<button class="charabtn">
+					<div class="charapf">
+						<img src="" alt="卡蒂娅·克里斯坦" />
+						<p>卡蒂娅·克里斯坦</p>
+					</div>
+					<div class="charaintro">
+						<p>
+							这里是mp上的人物简介
+						</p>
+					</div>
+				</button>
+
+				<div class="characontent">
+					<div class="charatab">
+						<button class="charalinks" onclick="charaContent(event,'卡蒂娅·克里斯坦1')" id="openedstory">戏文1</button>
+						<button class="charalinks" onclick="charaContent(event,'卡蒂娅·克里斯坦2')">戏文2</button>
+					</div>
+					<div id="卡蒂娅·克里斯坦1" class="charastory">
+						<h3>戏文1</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+					</div>
+					<div id="卡蒂娅·克里斯坦2" class="charastory">
+						<h3>戏文2</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+					</div>
+				</div>
+
+				<p style="border-top:2px solid #0080FF"></p>
+				<button class="charabtn">
+					<div class="charapf">
+						<img src="" alt="女皇迪妮莎" />
+						<p>女皇迪妮莎</p>
+					</div>
+					<div class="charaintro">
+						<p>
+							还是mp上的人物简介
+						</p>
+					</div>
+				</button>
+				<div class="characontent">
+					<div class="charatab">
+						<button class="charalinks" onclick="charaContent(event,'女皇迪妮莎1')" id="openedstory">戏文1</button>
+						<button class="charalinks" onclick="charaContent(event,'女皇迪妮莎2')">戏文2</button>
+					</div>
+					<div id="女皇迪妮莎1" class="charastory">
+						<h3>女皇迪妮莎戏文1</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+					</div>
+					<div id="女皇迪妮莎2" class="charastory">
+						<h3>女皇迪妮莎戏文2</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+					</div>
+				</div>
+
+				<p style="border-top:2px solid #0080FF"></p>
+
+			</div>
+		</div>
+		<div id="光谱相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '光谱相关人员档案')">相关人员档案</button>
+				<button class=" active">相关数据备份</button>
+				<button class=" subtablinks" onclick=" subContent(event,'光谱原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>光谱相关数据备份</h3>
+				<p>这里记录了光谱地形与建筑，相关术语，以及图书馆的常用书籍与资料。</p>
+			</div>
+		</div>
+		<div id="光谱原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '光谱相关人员档案')">相关人员档案</button>
+				<button class="subtablinks" onclick="subContent(event, '光谱相关数据备份')">相关数据备份</button>
+				<button class=" active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class=" tabcontent" data=".\content\ProjectIF\光谱.html"></object>
+
+		</div>
+	</div>
+	<!---->
+	<!--半岛终焉-->
+	<div>
+		<div id="半岛终焉" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛终焉相关人员档案')">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '半岛终焉相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '半岛终焉原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>半岛终焉</h3>
+				<p>事件发生于攸西历？？？年。这是当前数据能够追溯到的最古早的半岛事件，貌似也是贯穿了冒险者大多数旅行的事件。</p>
+			</div>
+		</div>
+
+		<div id="半岛终焉相关人员档案" class=" content">
+			<div class="vartopnav">
+				<button class="active">相关人员档案</button>
+				<button class=" subtablinks" onclick="subContent(event, '半岛终焉相关数据备份')">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '半岛终焉原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>半岛终焉相关人员档案</h3>
+				<p>
+					进化神使-阿德贝特(1)，奇迹魔女-芙蕾德莉卡.贝伦卡斯泰露(13)，吉翁总帅-夏亚.阿兹那布尔(23)，神族主教-阿塔尼斯(10)，伊甸的神明-密涅瓦(2)，伊甸的神明-朱诺(1)，旧日支配者黄衣之王-哈斯塔(11)，
+					神代响(1)
+				</p>
+			</div>
+		</div>
+
+		<div id="半岛终焉相关数据备份" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛终焉相关人员档案')">相关人员档案</button>
+				<button class="active">相关数据备份</button>
+				<button class=" subtablinks" onclick="subContent(event, '半岛终焉原文本')">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<div class=" tabcontent">
+				<h3>半岛终焉相关数据备份</h3>
+				<p>数据备份。</p>
+			</div>
+		</div>
+
+		<div id="半岛终焉原文本" class=" content">
+			<div class="vartopnav">
+				<button class="subtablinks" onclick="subContent(event, '半岛终焉相关人员档案')">相关人员档案</button>
+				<button class="subtablinks" onclick="subContent(event, '半岛终焉相关数据备份')">相关数据备份</button>
+				<button class=" active">原文本</button>
+				<input type="text" placeholder="搜索关键词" />
+			</div>
+			<object class="tabcontent" data=".\content\ProjectIF\半岛终焉.html"></object>
+		</div>
+	</div>
+	<div id="无名岛怪谈-更早？？？" class="content">
+		<div class="vartopnav">
+			<button>η›Έε…³人ε‘ζ΅£ζ΅</button>
+			<button>η›Έε…³ζ•°ζ®ε¤‡δ»½</button>
+			<button>原ζ–‡ζ¬</button>
+			<input type="text" placeholder="搜索关键词" />
+		</div>
+		<div class=" tabcontent">
+			<h3>？？？？？</h3>
+			<p style="text-align:center; color:#0080FF;font-size:50px">ERROR</p>
+		</div>
+	</div>
+	<!---->
+	<script type="text/javascript" src=".\content\resources\js\js_for_timeline.js"></script>
+	<script type="text/javascript" src=".\content\resources\js\subcontents_on_topnav.js"></script>
+	<script type="text/javascript" src=".\content\resources\js\series_on_timeline.js"></script>
+	<script type="text/javascript" src=".\content\resources\js\collapsible.js"></script>
+	<script type="text/javascript" src=".\content\resources\js\charaProfile.js"></script>
+
+</body>
+</html>
