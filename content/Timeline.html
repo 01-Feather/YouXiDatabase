@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href=".\resources\css\body.css" />
+	<link rel="stylesheet" type="text/css" href=".\resources\css\topnav.css" />
+	<link rel="stylesheet" type="text/css" href=".\resources\css\timelineButton.css" />
+	<link rel="stylesheet" type="text/css" href=".\resources\css\tabcontent.css" />
+	<link rel="stylesheet" type="text/css" href=".\resources\css\charapage.css" />
+	<style>
+		body::-webkit-scrollbar {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+		<button class="story" onclick="openFile(event, '现在的攸西半岛')">现在的攸西半岛</button>
+		<button class="story" onclick="openFile(event, '半岛重建')">半岛重建</button>
+		<button class="story" onclick="openFile(event,'黑潮')">黑潮</button>
+		<button class="story" onclick="openFile(event,'龙腾纪元')">龙腾纪元</button>
+		<button class="story" onclick="openFile(event,'永恒之森')">永恒之森</button>
+
+		<button class="series">
+			星际蛮仔
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick=" openFile(event,'星际蛮仔2')">星际蛮仔2</button>
+			<button class="story" onclick=" openFile(event,'星际蛮仔')">星际蛮仔</button>
+		</div>
+
+		<button class="series">
+			亚当
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick="openFile(event,'亚当0')">亚当0</button>
+			<button class="story" onclick="openFile(event,'亚当')">亚当</button>
+		</div>
+
+		<button class="story" onclick="openFile(event,'纳垢双生')">纳垢双生</button>
+		<button class="story" onclick="openFile(event,'净土')">净土</button>
+		<button class="story" onclick="openFile(event,'克洛之旅')">克洛之旅</button>
+		<button class="story" onclick="openFile(event,'超越时空的委托')">超越时空的委托</button>
+		<button class="story" onclick="openFile(event,'小镇学院第三季')">小镇学院第三季</button>
+		<button class="story" onclick="openFile(event,'迷失天堂：谜镜')">迷失天堂：谜镜</button>
+		<button class="series">
+			异类攸西
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick="openFile(event,'零落的归途')">零落的归途</button>
+			<button class="story" onclick="openFile(event,'冰封的命运')">冰封的命运</button>
+			<button class="story" onclick="openFile(event,'破碎月桂')">破碎月桂</button>
+		</div>
+		<button class="story" onclick="openFile(event,'乐园')">乐园</button>
+		<button class="story" onclick="openFile(event,'终结之旅途')">终结之旅途</button>
+		<button class="story" onclick="openFile(event,'起源之变革')">起源之变革</button>
+		<button class="series">
+			童话镇
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick=" openFile(event,'白雪公主')">白雪公主</button>
+			<button class="story" onclick=" openFile(event,'爱丽丝梦游仙境')">爱丽丝梦游仙境</button>
+		</div>
+
+		<button class="series">
+			超越者之影
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="series-container">
+			<button class="story" onclick=" openFile(event,'黑星降临')">黑星降临</button>
+			<button class="story" onclick=" openFile(event,'德拉格尼')">德拉格尼</button>
+		</div>
+		<button class="story" onclick="openFile(event,'轮回的游戏')">轮回的游戏</button>
+		<button class="story" onclick="openFile(event,'零下严寒')">零下严寒</button>
+		<button class="story" onclick="openFile(event,'青空节')">青空节</button>
+		<button class="story" onclick="openFile(event,'凡人的冒险')">凡人的冒险</button>
+		<button class="story" onclick="openFile(event,'黑白之国')">黑白之国</button>
+		<button class="story" onclick="openFile(event,'短暂的假期')">短暂的“假期”</button>
+		<button class="story" onclick="openFile(event,'Storyteller')">Storyteller</button>
+		<button class="story" onclick="openFile(event,'殷红狂宴')">殷红狂宴</button>
+		<button class="story" onclick="openFile(event,'七宗罪')">七宗罪</button>
+		<button class="story" onclick="openFile(event,'无名村庄的月圆之夜')">无名村庄的月圆之夜</button>
+		<button class="story" onclick="openFile(event,'青空之印')">青空之印</button>
+		<button class="story" onclick="openFile(event,'光谱')">光谱</button>
+		<button class="story" onclick="openFile(event,'葬神之渊')">葬神之渊</button>
+		<button class="story" onclick="openFile(event,'月夜幻境')">月夜幻境</button>
+		<button class="story" onclick="openFile(event,'半岛终焉')">半岛终焉</button>
+		<button class="story" onclick="openFile(event,'无名岛怪谈-更早？？？')">无名岛怪谈-更早？？？</button>
+
+
+	<script type="text/javascript" src=".\resources\js\js_for_timeline.js"></script>
+	<script type="text/javascript" src=".\resources\js\subcontents_on_topnav.js"></script>
+	<script type="text/javascript" src=".\resources\js\series_on_timeline.js"></script>
+	<script type="text/javascript" src=".\resources\js\collapsible.js"></script>
+	<script type="text/javascript" src=".\resources\js\charaProfile.js"></script>
+</body>
+</html>
